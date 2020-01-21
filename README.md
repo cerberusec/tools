@@ -1,5 +1,7 @@
 # Helpful pentest commands
 
+## [PayloadsAllTheThings - Methodology and Resources](https://github.com/cerberusec/PayloadsAllTheThings/tree/master/Methodology%20and%20Resources)
+
 ## Powersploit
 
 * powershell -exec bypass -c "Import-Module .\Privesc; Invoke-AllChecks"
